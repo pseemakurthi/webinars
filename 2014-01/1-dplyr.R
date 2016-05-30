@@ -14,3 +14,6 @@ summarise(by_day, delay = mean(dep_delay, na.rm = TRUE))
 # Multi-table verbs
 semi_join(planes, flights)
 anti_join(planes, flights)
+
+#adding comment to the file
+print(planes)
